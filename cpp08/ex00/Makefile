@@ -6,16 +6,16 @@
 #    By: ddraco <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/01/07 23:20:33 by ddraco            #+#    #+#              #
-#    Updated: 2021/02/05 18:06:20 by ddraco           ###   ########.fr        #
+#    Updated: 2021/02/05 16:02:58 by ddraco           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 SRCS			= main.cpp
 OBJS			= $(SRCS:.cpp=.o)
 
-CXX				= clang++ --std=c++98
+CXX				= clang++
 RM				= rm -f
-CXXFLAGS		= -Wall -Wextra -Werror
+CXXFLAGS		= -Wall -Wextra -Werror -std=c++98
 
 NAME			= a.out
 

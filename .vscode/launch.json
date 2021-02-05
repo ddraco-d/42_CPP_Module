@@ -8,10 +8,10 @@
 			"name": "(lldb) Launch",
 			"type": "cppdbg",
 			"request": "launch",
-			"program": "${workspaceFolder}/cpp04/ex03/a.out",
+			"program": "${workspaceFolder}/cpp08/ex02/a.out",
 			"args": [],
 			"stopAtEntry": true,
-			"cwd": "${workspaceFolder}/cpp04/ex03",
+			"cwd": "${workspaceFolder}/cpp08/ex02",
 			"environment": [],
 			"externalConsole": false,
 			"MIMode": "lldb"
